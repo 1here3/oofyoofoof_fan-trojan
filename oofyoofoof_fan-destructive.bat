@@ -13,6 +13,7 @@ if /i %input%==Yes goto yes2
 if /i %input%==No goto No2
 :yes2
 timeout 2
+echo your PC Has been fucked
 start crazysound6.exe
 timeout 61
 start tunnel.exe
