@@ -3,8 +3,8 @@
 
 echo wanna start
 set /p input=
-if /i %input%==Y goto yes
-if /i %input%==N goto No
+if /i %input%==y goto yes
+if /i %input%==n goto no
 if /i not %input%== Ygr,wininit goto 1
 :yes
 start invmelter.exe
@@ -24,4 +24,6 @@ start BSOD Simulator.exe
 timeout 100
 echo ended
 timeout 2
+exit
+:no
 exit
